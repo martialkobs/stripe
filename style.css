@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+
+.section{
+    padding: 100px 20px;
+    overflow: hidden;
+
+}
+
+
+.container{
+max-width: 700px;
+margin: 0 auto;
+background-color: #fff;
+padding: 50px 80px;
+box-shadow: 0 30px 60px -12px rgba(50, 50, 93,0.25),
+0 18px -18px rgba(0, 0, 0, 0.3), 
+0 -12px 36px -8px rgba(0, 0, 0, 0.25);
+}
+
+.shapes{
+    transform: skewY(-12deg);
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.4;
+
+    }
+
+.shape-one{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right:5%;
+    background: linear-gradient(180deg, #67DD4A 0%, rgba(255, 255, 255, 0) 100%), #D6A5A5;
+    height: 80px;
+    
+}
+.shape-two{
+    position: absolute;
+    top: 180px;
+    left: 5%;
+    right: 0%;
+    background-color: #4527a0;
+    height: 80px;
+    
+}
+.shape-three{
+    position: absolute;
+    top: 260px;
+    left: 10%;
+    right: 0%;
+    background-color: #aed581;
+    height: 80px;
+    
+}
+.vec{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    transform: skewX(45deg);
+  
+    justify-content: center;
+
+}
